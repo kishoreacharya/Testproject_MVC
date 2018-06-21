@@ -1,0 +1,115 @@
+/* Listall Page css changes starts */
+
+#form_body {font-family: Arial, Helvetica, sans-serif;background-color: #5F5F5F;}
+h3 {color:#DEDEDE;text-align: center;}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    width:600px;
+
+    margin: auto;
+    width: 60%;
+
+}
+
+#message_description{
+    height:200px;
+}
+
+.span_link{
+    padding-left: 720px;
+}
+
+.span_desc{
+    margin-left: auto;
+}
+
+#anchor_link{
+    color: white;
+}
+/* Listall Page css changes ends */
+
+
+/* MessageForm add/edit page css changes starts */
+
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+
+#listall_body {
+    padding: 24px;
+    font-family: 'Source Sans Pro', sans-serif;
+
+    margin: 0;
+}
+
+
+
+.container_list {
+    max-width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+}
+
+.table {
+    width: 83%;
+    border: 1px solid #EEEEEE;
+}
+
+.table-header {
+    display: flex;
+    width: 100%;
+    background: #000;
+    padding: 18px 0;
+}
+
+.table-row {
+    display: flex;
+    width: 100%;
+    padding: 18px 0;
+}
+.table-row:nth-of-type(odd) {
+    background: #EEEEEE;
+}
+
+.table-data, .header__item {
+    flex: 1 1 20%;
+    text-align: center;
+}
+
+.header__item {
+    text-transform: uppercase;
+    color: white;
+}
+/* MessageForm add/edit css changes ends */
